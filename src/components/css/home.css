@@ -1,0 +1,98 @@
+
+
+.Profile {
+  position: relative;
+  width: 400px;
+  max-width: 80%;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: #333;
+  margin-top: 20px;
+}
+
+.Profile h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+.Profile .heading {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+}
+
+.Profile .name {
+  text-align: center;
+  color: #2ecc71;
+  margin-top: 10px;
+}
+
+.Profile .gender {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+}
+.Profile .email {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+}
+
+.Profile .dob {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+}
+
+.Profile .age {
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Styles for the input fields */
+.Profile input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styles for the Confirm button */
+.Profile button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Profile button:hover {
+  background-color: #2980b9;
+}
+
+.Profile .logoutbutton {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.Profile .logout {
+  padding: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Profile .logout:hover {
+  background-color: #c0392b;
+}
